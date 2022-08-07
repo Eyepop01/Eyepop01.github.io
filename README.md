@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Useful resources
 
-- (https://www.w3schools.com)
-- (https://www.w3docs.com)
+- https://www.w3schools.com
+- https://www.w3docs.com
 
 ## Author
 
