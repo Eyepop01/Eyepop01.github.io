@@ -1,0 +1,145 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box
+} 
+
+/* @font-face {
+    font-family: montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+  } */
+@font-face {
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+  body{
+    max-width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 500;
+    font-family: Fraunces;
+    font-size: 14px;
+    /* background-color: hsl(158, 36%, 37%); */
+  }
+
+  
+
+#main-area{
+    max-width: 550px;
+    height: 400px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 10% auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img-area{
+    width: 50%;
+    background-image: url("/images/image-product-desktop.jpg");
+    background-size: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.text-area{
+    width: 50%;
+}
+
+.text-content{
+    padding: 30px;
+}
+
+.capture{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 5px;
+}
+ p.capture{
+    margin: 0;
+ }
+.text-manipulation{
+    margin: 0;
+    vertical-align: bottom;
+    display: flex;
+    grid-gap: 5px;
+}
+.plain{
+    margin: 7px 0 9px 4px;
+}
+
+.green-text{
+    color:hsl(158, 36%, 37%);
+    font-weight: 900;
+    font-size: 25px;
+    vertical-align: bottom;
+    margin: 0;
+}
+
+.button{
+    padding: 9px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    display: block;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(60, 128, 103, 0.9);
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 449px) {
+    #main-area{
+        max-width: 375;
+        height: 600px;
+        display: block;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .img-area{
+        width: 100%;
+        height: 250px;
+        background-image: url("/images/image-product-mobile.jpg");
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;    
+    }
+    
+    .text-area{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .text-content{
+        padding: 10%;
+    }
+        
+}
+
+@media screen and (max-width: 480px) {
+    .button{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .button{
+      margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 229px) {
+    p{
+        margin: 0;
+        padding: o;
+    }
+}
