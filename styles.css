@@ -379,6 +379,10 @@ ul {
     display: block;
     cursor: pointer;
   }
+  .form__email,
+  .form__button {
+    width: 100%;
+  }
 }
 
 /* Media screen less than 600 screen size */
@@ -390,5 +394,9 @@ ul {
   .col-3,
   .col-4 {
     flex-basis: 100%;
+  }
+  .form__email,
+  .form__button {
+    width: 100%;
   }
 }
