@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAS | Ecommerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+
+    <script src="https://kit.fontawesome.com/1393f20e75.js" crossorigin="anonymous"></script>
+
+</head>
+<body> 
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="100px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </nav>
+                <img src="images/add-to-cart-3046.png" alt="" width="30px" height="30px">
+                <img src="images/icons8-menu-rounded-100.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Shop Now & Enjoy <br> 50% Discount!</h1>
+                    <p> Here at CAS Ecommerce our goal is to ensure that everyone big or small gets a fair share of the market... <br> Feel free to explore, you'll always come for more... <span class="love">❤</span>
+                    </p>
+                    <a href="products.html" class="btn">Explore Now &#10132;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/sales.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!-- Form Area -->
+   <div class="subscribe">
+	<h2 class="subscribe__title">Let's keep in touch</h2>
+	<p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates. We promise not to spam you!</p>
+	<div class="form">
+		<input type="email" class="form__email" placeholder="Enter your email address" />
+		<button class="form__button">Send</button>
+	</div>
+	<div class="notice">
+		<input type="checkbox">
+		<span class="notice__copy">I agree to my email address being stored and uses to recieve monthly newsletter.</span>
+	</div>
+</div>
+
+
+   <!-- <div class="container">
+        <div class="form-area">
+            <p>DON'T MISS OUT</p>
+            <h1>Get up to $60 Off</h1>
+            <p>with purchase</p>
+
+            <form action="">
+                <input type="text" placeholder="Enter email">
+                <button>Claim Offer</button>
+                <br>
+                <a href="products.html">CONTINUE WITHOUT OFFER</a>
+            </form>
+        </div>
+    </div> -->
+
+  
+  
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/Smartwatch.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available on CAS Website</p>
+                    <h1>Smart Band</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione esse illo asperiores culpa excepturi harum beatae ut deserunt nostrum commodi odit dolorem modi, nesciunt explicabo  labore vitae suscipit itaque dolorem est adipisci?</small>
+                    <br>
+                    <a href="" class="btn">Buy Now &#10132;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Testimonial -->
+      <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Collins is an engineer who specilizes in converting concepts into codes for solving real life problems. He is a student of ALX software engineering...</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/Collins.jpeg" alt="">
+                    <h3>Ekinadoese Collins</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Amin is is a specilist in UI designs, he is properly guided and good in choosing the right colour scheme and texture tha inspires and motivate the end users. He is a student of ALX</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/Samuel Passport.jpg" alt="">
+                    <h3>Ameen Aminu</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Collins is a software engineer who is a specialist in html, css and javascripts and related frameworks. He is also a student of ALX software engineering...</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/Samuel..jpg" alt="">
+                    <h3>Eze Samuel</h3>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row"> 
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="https://web.facebook.com/ifeanyi.alex1/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://twitter.com/sekem_"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com/sekem_"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://wa.me/2347035544939"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2022 - Alex Computers</p>
+    </div>
+</div>
+
+<!-- Js for toogle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight =  "0px";
+    function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+        else
+            {
+                MenuItems.style.maxHeight="0px";
+            }
+    }
+</script>
+
+</body>
+</html>
