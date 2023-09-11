@@ -1,1 +1,1 @@
-A project done by Amin, Samuel and Collins
+A simple Html, CSS and Javascript page
